@@ -34,6 +34,12 @@ export default function RootLayout({
             then come back, the site will fetch from the server and load EVERY
             SINGLE TIME. You can see this in inspect performance.{" "}
           </p>
+          <a
+            href="https://github.com/BiigFish/next-page-changing-bug"
+            className="text-blue-400"
+          >
+            Repo here
+          </a>
         </div>
         {children}
       </body>
